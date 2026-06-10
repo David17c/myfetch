@@ -112,6 +112,17 @@ $orange      \\________      )
 $orange               \\____/
 \n" ;;
 
+	*[lL]MDE*)
+		printf "
+$green ___________		$green $whoisthis
+$green|_          \		$green OS: $white$os
+$green  | | _____ |		$green Uptime: $white$upt
+$green  | | | | | |		$green Machine: $machine
+$green  | | | | | |		$green RAM used: $ram
+$green  | \_____/ |		$green Disk used: $disk
+$green  \_________/		$green Kernel:	$white$kernel
+\n" ;;
+
     *[gG]entoo*)
         printf "
 $purple          _____                    $white $whothisis
@@ -138,3 +149,4 @@ $white Disk used: $disk
 $white    Kernel: $orange$kernel\n\n" ;;
 esac
 printf "$white"
+
