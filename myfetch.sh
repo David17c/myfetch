@@ -114,16 +114,16 @@ $orange               \\____/
 
 	*[lL]MDE*)
 		printf "
-$green ___________		$green $whoisthis
-$green|_          \		$green OS: $white$os
-$green  | | _____ |		$green Uptime: $white$upt
-$green  | | | | | |		$green Machine: $machine
-$green  | | | | | |		$green RAM used: $ram
-$green  | \_____/ |		$green Disk used: $disk
-$green  \_________/		$green Kernel:	$white$kernel
+$green ___________			   $white $whothisis
+$green|_          \		       $white OS: $purple$os
+$green  | | _____ |		   $white Uptime: $cyan$upt
+$green  | | | | | |		  $white Machine: $machine
+$green  | | | | | |		 $white RAM used: $ram
+$green  | \_____/ |		$white Disk used: $disk
+$green  \_________/		   $white Kernel: $cyan$kernel
 \n" ;;
 
-    *[gG]entoo*)
+    *[lL]MDE*)
         printf "
 $purple          _____                    $white $whothisis
 $purple         /     \\               $white OS: $purple$os
